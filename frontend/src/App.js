@@ -71,14 +71,12 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
-      <header className="max-w-6xl mx-auto mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-          Face Recognition Attendance
-        </h1>
-        <p className="text-gray-600 mt-2">
-          Backend: <code className="bg-gray-100 px-1">{API_URL}</code>
-        </p>
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 p-8">
+      <header className="max-w-6xl mx-auto mb-10 text-center">
+            <h1 className="text-4xl font-bold text-gray-900">Face Recognition Attendance</h1>
+
+           <p className="text-gray-600 mt-2">AI-powered attendance system with FastAPI + React</p>
+
       </header>
 
       <main className="max-w-6xl mx-auto grid md:grid-cols-2 gap-6">

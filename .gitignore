@@ -1,1 +1,18 @@
-"__pycache__/\n*.pyc\n*.pyo\n*.pyd\n*.db\nnode_modules/\nbuild/\n.env" 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Node
+node_modules/
+build/
+
+# Env
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
